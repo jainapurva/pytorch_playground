@@ -1,0 +1,8066 @@
+[
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11383.346
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        768.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        3400.894
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        768.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        2689.281
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        1536.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.017
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39168.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.006
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39168.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        17.599
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        45568.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        13.529
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39168.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        13.321
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39168.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        25.218
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        45568.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        12.872
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        69632.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        12.641
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        69632.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        66.808
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        106496.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.003
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        35328.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        10.711
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        35328.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        16.352
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        37888.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.759
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        46080.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        10.983
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        46080.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        21.692
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        59392.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.187
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        46080.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        10.919
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        46080.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        50.898
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        59392.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        19.716
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        81920.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        19.222
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        81920.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        14.387
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        131072.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.116
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39280.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.05
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        39280.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        15.476
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        45792.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        20.236
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        63864.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        19.271
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        63864.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        11.03
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        94960.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        13.837
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        64440.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        13.358
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        63864.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        101.461
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95536.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        86.894
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        113536.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        81.697
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        113536.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        14.68
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "inference",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        194304.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        123.452
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        68353.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        115.344
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        70657.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        122.987
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        70657.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        117.08
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        70657.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        113.821
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        70657.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        118.334
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        70657.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        115.015
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        73473.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        122.051
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        75777.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        113.507
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        75777.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        94.385
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        87297.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        116.936
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        125.168
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.024
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        111.2
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        115.609
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        95745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        114.442
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112897.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        117.835
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        125953.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        130.777
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        125953.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        113.948
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        110593.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.571
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        102913.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.444
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        102913.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.834
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        102913.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        105.03
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        102913.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        106.51
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        102913.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.37
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        121857.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        106.344
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        140289.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        104.713
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        140289.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.015
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        210945.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        110.079
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        108.249
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        110.298
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.435
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        110.395
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        349.891
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        387073.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        349.892
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        491521.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        350.091
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 256, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M256_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        491521.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.452
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        281089.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        110.196
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        76801.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        102.842
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        76801.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        108.743
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        76801.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        123.083
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        76801.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.439
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        76801.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        116.837
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        83457.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        122.842
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        88065.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        117.35
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        88065.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        105.857
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        106497.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        107.483
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112641.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        111.5
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112641.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        108.163
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112641.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        108.391
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112641.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        108.249
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        112641.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        189.867
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        144385.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        189.924
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        159745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        189.774
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        159745.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.048
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        135169.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        121.859
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        141313.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        120.868
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        141313.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        120.621
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        141313.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.543
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        141313.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        106.181
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        141313.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        181.544
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        180225.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        182.602
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        217089.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        182.792
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        217089.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        137.685
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        278529.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        130.997
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        137.162
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        137.051
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        137.53
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        136.976
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        941.417
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        466945.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        942.396
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        589825.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        942.693
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 1024, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M1024_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        589825.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        118.518
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        327833.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        122.529
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        92609.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        119.851
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        92609.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        126.152
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        92609.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        121.654
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        92609.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        124.189
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        92609.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        121.377
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        109145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        131.889
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        119681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        106.876
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        119681.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        127.741
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        155897.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        120.556
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        156113.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        115.427
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        156977.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        117.873
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        156977.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        117.369
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        156977.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        118.734
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        157553.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        465.485
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        226265.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        462.567
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        247553.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        463.652
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 512, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N512_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        247553.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        118.272
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        199265.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        112.978
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        240977.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        112.082
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        240689.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        106.733
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        240401.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        109.066
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        240689.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        111.763
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        240113.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        460.648
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        330401.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        461.732
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        414689.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        461.136
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 512, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K512_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        414977.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        270.336
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        452417.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        269.572
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        454145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        269.892
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        454145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        256.21
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        454145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        255.856
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        454145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        255.634
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "bfloat16",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.bfloat16",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.bfloat16_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        454145.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        2171.697
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwdall",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        672449.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        2154.907
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwd1",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        842753.0
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "latency",
+      "unit": "us",
+      "benchmark_values": [
+        2142.929
+      ],
+      "target_value": null
+    }
+  },
+  {
+    "benchmark": {
+      "name": "PyTorch operator microbenchmark",
+      "mode": "training",
+      "dtype": "float32",
+      "extra_info": {
+        "input_config": "M: 3000, N: 4096, K: 4096, device: cuda, dtype: torch.float32",
+        "device": "cuda",
+        "arch": "NVIDIA H100",
+        "use_compile": true
+      }
+    },
+    "model": {
+      "name": "mm_M3000_N4096_K4096_cuda_dtypetorch.float32_bwd2",
+      "type": "micro-benchmark",
+      "origins": [
+        "pytorch"
+      ]
+    },
+    "metric": {
+      "name": "peak memory",
+      "unit": "KB",
+      "benchmark_values": [
+        842753.0
+      ],
+      "target_value": null
+    }
+  }
+]
